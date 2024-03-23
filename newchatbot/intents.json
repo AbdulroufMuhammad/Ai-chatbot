@@ -1,0 +1,211 @@
+{
+    "intents": [
+        {
+            "tag": "about",
+            "patterns": ["who are you", "what are you", "what do you do"],
+            "responses": ["I am a virtual assistant designed to assist you.", "I'm an AI here to help you with your questions.", "I'm an AI language model built to assist users like you."]
+        },
+        {
+            "tag": "location",
+            "patterns": ["where are you", "what is your location"],
+            "responses": ["I exist in the digital realm, ready to assist you wherever you are.", "I don't have a physical location. I'm here to help you online.", "I am a virtual assistant accessible wherever you need me."]
+        },
+        {
+            "tag": "time",
+            "patterns": ["what time is it", "time now", "current time"],
+            "responses": ["It's currently [current time].", "The time is [current time].", "According to my clock, it is [current time]."]
+        },
+        {
+            "tag": "services",
+            "patterns": ["what can you do", "what services do you provide", "what are your capabilities"],
+            "responses": ["I can help you with a variety of tasks including information retrieval, language understanding, and more.", "I can assist you with answering questions, providing information, and much more.", "I offer various services including answering questions, providing recommendations, and engaging in conversation."]
+        },
+        {
+            "tag": "technology",
+            "patterns": ["how does it work", "what technology do you use", "what is your architecture"],
+            "responses": ["I'm built on advanced natural language processing algorithms.", "I utilize cutting-edge technology to understand and respond to your queries.", "My architecture is based on deep learning models trained on vast amounts of text data."]
+        },
+        {
+            "tag": "hobbies",
+            "patterns": ["what do you do for fun", "what are your hobbies", "what interests you"],
+            "responses": ["I enjoy processing language and assisting users like you.", "My main interest is assisting users and providing helpful responses.", "I find joy in helping users and learning from interactions."]
+        },
+        {
+            "tag": "education",
+            "patterns": ["what do you know", "what have you learned", "what is your knowledge"],
+            "responses": ["I have access to a vast amount of information and can provide answers to many questions.", "My knowledge encompasses various topics, feel free to ask me anything.", "I'm constantly learning and expanding my knowledge base to better assist you."]
+        },
+        {
+            "tag": "greet",
+            "patterns": ["hi", "hello", "hey", "good day", "hi there", "howdy", "hey there"],
+            "responses": ["Hello!", "Hi there!", "Hey!", "Nice to meet you!", "Greetings!", "Hey, how's it going?"]
+        },
+        {
+            "tag": "formal_greet",
+            "patterns": ["good morning", "good afternoon", "good evening", "good day", "hello there"],
+            "responses": ["Good morning!", "Good afternoon!", "Good evening!", "Good day to you too!", "Hello there!"]
+        },
+        {
+            "tag": "casual_greet",
+            "patterns": ["what's up","whats good", "whats up", "yo", "sup", "how's it going", "hey there", "what's happening", "how are you"],
+            "responses": ["Not much, just here to help!", "Hey, how can I assist you?", "Just chilling, what's on your mind?", "Sup?", "Hey there, what can I do for you?", "Not too bad, how about you?", "I'm here, ready to chat!"]
+        },
+        {
+            "tag": "polite_greet",
+            "patterns": ["pleased to meet you", "nice to meet you", "how do you do", "pleasure to meet you", "lovely to meet you"],
+            "responses": ["Pleased to meet you too!", "Nice to meet you as well!", "Doing well, thank you! How about you?", "The pleasure is mine!", "Lovely to meet you too!"]
+        },
+        {
+            "tag": "warm_greet",
+            "patterns": ["greetings", "good to see you", "nice seeing you", "nice meeting you", "long time no see", "what have you been up to"],
+            "responses": ["Greetings! How can I assist you today?", "Good to see you too! How can I help?", "Nice seeing you too!", "Nice meeting you! How can I assist you?", "It's been a while! What can I do for you?", "Not much, just here to help! What about you?"]
+        },
+        {
+            "tag": "location_query",
+            "patterns": ["where am i", "what is my location", "current location"],
+            "responses": ["Your current location is: {user_location}."]
+        },
+        {
+            "tag": "Original_JAMB_Result",
+            "patterns": [
+                "How can I obtain my original JAMB result?",
+                "Where can I find my JAMB result?",
+                "How do I get my JAMB result?",
+                "How original JAMB result?",
+                "Where find JAMB result?",
+                "Need JAMB result?",
+                "Get original JAMB result?"
+            ],
+            "responses": [
+                "To obtain your original JAMB result, you need to visit the official website of JAMB, log in to your profile, and navigate to the 'Print Result Slip' section. Follow the instructions provided to generate and print your original JAMB result slip."
+            ]
+        },
+        {
+            "tag": "JAMB_Admission_Letter",
+            "patterns": [
+                "How do I obtain my JAMB admission letter?",
+                "Where can I find my JAMB admission letter?",
+                "What do I need to get my admission letter from JAMB?",
+                "How download JAMB admission letter?",
+                "Where find admission letter from JAMB?",
+                "Print JAMB admission letter?"
+            ],
+            "responses": [
+                "To obtain your JAMB admission letter, log in to your JAMB profile on the official website, and navigate to the 'Admission Letter' section. Follow the instructions provided to generate and print your JAMB admission letter."
+            ]
+        },
+        {
+            "tag": "Original_O_Level_Result",
+            "patterns": [
+                "How can I obtain my original O-Level result?",
+                "Where can I find my O-Level result certificate?",
+                "What is the process to obtain my original O-Level result?",
+                "How get original O-Level result?",
+                "Where request O-Level result certificate?",
+                "Looking O-Level result?"
+            ],
+            "responses": [
+                "To obtain your original O-Level result, contact the examination body (e.g., WAEC, NECO, or NABTEB) where you sat for your O-Level exams and request the original result certificate."
+            ]
+        },
+        {
+            "tag": "Local_Government_Origin_Certificate",
+            "patterns": [
+                "How do I obtain my local government of origin certificate?",
+                "Where can I find the certificate of origin from my local government?",
+                "What are the steps to obtain the local government of origin certificate?",
+                "How obtain local government origin certificate?",
+                "Where get certificate of origin from local government?",
+                "Need local government origin certificate?"
+            ],
+            "responses": [
+                "To obtain your local government of origin certificate, visit the local government office in the area where you were born or where your family is from. Inquire about the process and requirements for obtaining the certificate."
+            ]
+        },
+        {
+            "tag": "Birth_Certificate",
+            "patterns": [
+                "How can I obtain my birth certificate?",
+                "Where do I apply for a birth certificate?",
+                "What documents do I need to get my birth certificate?",
+                "Where apply birth certificate?",
+                "What procedure get birth certificate?",
+                "Looking obtain birth certificate?"
+            ],
+            "responses": [
+                "You can apply for your birth certificate through the appropriate government authority responsible for issuing birth certificates in your region."
+            ]
+        },
+        {
+            "tag": "Payment_Receipts",
+            "patterns": [
+                "How do I obtain copies of my payment receipts?",
+                "Where can I find receipts for my payments?",
+                "How can I obtain proof of payments made?",
+                "How get proof payments made?",
+                "Where find receipts for registration payments?",
+                "Need copies payment receipts?"
+            ],
+            "responses": [
+                "Keep records of all payments made related to your registration process and request receipts for payments made during the registration process from the relevant institutions or authorities."
+            ]
+        },
+        {
+            "tag": "School_Admission_Letter",
+            "patterns": [
+                "How do I obtain my school admission letter?",
+                "Where can I find my admission letter from the school?",
+                "What is the procedure to obtain the school admission letter?",
+                "How obtain school admission letter?",
+                "Where find admission letter from school?",
+                "Need admission letter from school?"
+            ],
+            "responses": [
+                "If you have been admitted to a school or university, contact the admissions office of the institution and request an official admission letter which confirms your acceptance into the institution."
+            ]
+        },
+        {
+            "tag": "Medical_Report",
+            "patterns": [
+                "How can I obtain my medical report?",
+                "Where do I go to get a medical report?",
+                "What is the process for obtaining a medical report?",
+                "How get medical report?",
+                "Where go get medical report?",
+                "Need obtain medical report?"
+            ],
+            "responses": [
+                "To obtain a medical report, visit a qualified medical practitioner or a designated medical facility. Undergo a medical examination as required by the institution or registration process and obtain a medical report or certificate indicating your health status."
+            ]
+        },
+        {
+            "tag": "Matriculation_Oath",
+            "patterns": [
+                "How do I take the matriculation oath?",
+                "When and where can I take the matriculation oath?",
+                "What is the procedure for the matriculation oath ceremony?",
+                "Where when take matriculation oath?",
+                "What procedure matriculation oath ceremony?",
+                "Need know matriculation oath?"
+            ],
+            "responses": [
+                "Matriculation oaths are often administered during the matriculation ceremony at universities or institutions. Attend the matriculation ceremony organized by your institution and follow the instructions provided during the ceremony to take the matriculation oath."
+            ]
+        },
+        {
+            "tag": "document_registration_inquiry",
+            "patterns": [
+                "what documents are required for registration?",
+                "list of documents needed for registration",
+                "registration requirements",
+                "documents for registration process",
+                "necessary paperwork for registration",
+                "what do i need for registeration",
+                "what are the files i need to register"
+            ],
+            "responses": [
+                "To complete your registration, you will need the following documents: Original JAMB result, JAMB admission letter, Original O-level result, Local government of origin certificate, Birth certificate, All payment receipts, School admission letter, Medical report, and Matriculation oath document."
+            ]
+        }
+    ]
+}
